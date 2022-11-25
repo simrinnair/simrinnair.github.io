@@ -112,6 +112,7 @@ dd {
 blockquote {
   margin: 0 0 1rem; 
   font-size: 120%;
+  font-weight: bold;
 }
 
 b,
