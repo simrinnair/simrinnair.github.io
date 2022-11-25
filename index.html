@@ -1,83 +1,188 @@
-<!--MIT License
-
-Copyright (c) 2017 Eren Okka
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.-->
-
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>simrinnair.com</title>
-    <style>
-      html, body {
-        height: 100%;
-      }
-      body {
-        background-color: #fff;
-        background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);
-        color: #222;
-        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-        font-size: 1rem;
-        line-height: 1.5;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      main {
-        padding: 1rem;
-        text-align: center;
-      }
-      h1 {
-        font-size: 2.5rem;
-        line-height: 1.1;
-        margin: 0;
-      }
-      @media screen and (max-width: 480px) {
-        h1 {
-          font-size: 1.5rem;
-        }
-      }
-      h1::after {
-        content: "";
-        background-color: #ffe800;
-        background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
-        display: block;
-        height: 0.5rem;
-        margin-top: 1rem;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-      p {
-        margin: 1rem 0 0 0;
-      }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <main>
-      <h1>Simrin Nair</h1>
-      <p>The website is under construction. Please check back later!</p>
-    </main>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Simrin Nair<span>.</span></a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#author-section" class="nav-link"><span>Author</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+	  <section class="hero-wrap js-fullheight">
+      <div class="container-fluid px-0">
+      	<div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
+	      	<img class="one-third js-fullheight align-self-end order-md-last img-fluid" src="images/TransparentMomAndBaby.png" alt="">
+	        <div class="one-forth d-flex align-items-center ftco-animate js-fullheight">
+	        	<div class="text mt-5">
+	        		<span class="subheading">Debut Children's Picture Book</span>
+		  				<h1>All Babies Cry</h1>
+		  				<blockquote>"All babies cry by the end of the day.
+							<br>Some more than others and that is okay.
+							<br>Because baby you cry to help others see,
+							<br>you are exactly who you're meant to be."
+						</blockquote>	
+						<p>Celebrate babies for who they are and encourage them to express themselves. This book will relate to loved ones getting to know the newest member of the family.</p>
+		  				<!--TODO UPDATE LINK-->
+						<p><a href="https://google.com" class="btn btn-primary py-3 px-4">Buy Now on Amazon</a></p>
+	          </div>
+	        </div>
+	    	</div>
+      </div>
+    </section>
+	
+    <section class="ftco-about img ftco-section" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/all_babies_cry.png);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-md-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		            <h2 class="mb-4">About The Book</h2>
+		            <div class="text-about">
+		            	<h4>Synopsis</h4>
+						<p>The book goes through a typical baby's day from sunrise to sunset showing how babies respond to situations differently through rhythmic text and playful illustrations.</p>
+						<h4>Target Audience</h4>
+						<p>A perfect gift for anyone bringing home a baby, whose cries may bewilder a parent, sibling, grandparent or any loved one learning the personality of the newest member of the family. Reading age 0-3 years.
+						</p>
+						<h4>Reviews</h4>
+						<p>If you connect with the book, please share your thoughts. Reviews from readers like you will really help me reach more parents.</p>
+						<!--TODO UPDATE LINK-->
+						<p><a href="https://google.com" class="btn btn-primary py-3 px-4">Add Review Here</a></p>
+					</div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>S
+
+		<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="author-section">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/headshot.png);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="py-md-5 w-100 bg-light px-md-5">
+    					<div class="py-md-5">
+		    				<div class="row justify-content-start pb-3">
+				          <div class="col-md-12 heading-section ftco-animate">
+				          	<span class="subheading">Know More About The Author</span>
+				            <h2 class="mb-4">Simrin Nair</h2>
+							<p></p>
+				            <p>Simrin Nair is a software engineer whose journey into motherhood has sparked her creativity. All Babies Cry is her debut children's picture book. The book is inspired by her son Krish who fights sleep with all his might. She knows that his strong will, while exhausting right now, is a trait that should be celebrated and makes him who he is. She hopes to relate to and connect with other parents through her writing. Originally from Canada, Simrin currently lives in California with her husband (and number one supporter) Vishnu and her son Krish.
+							</p>
+				          </div>
+				        </div>
+			        </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Happy to connect and hear your thoughts on the book!</p>
+          </div>
+		</div>
+		<div class="row d-flex contact-info mb-5">
+			<div class="align-self-stretch box text-center p-4">
+				<div class="icon d-flex align-items-center justify-content-center">
+					<span class="fa fa-paper-plane"></span>
+				</div>
+				<div>
+					<h3 class="mb-2">Email Address</h3>
+					<p>simrin{dot}nair{at}gmail{dot}com</p>
+				</div>
+			</div>
+	  	</div>
+	  </div>
+    </section>
+		
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
   </body>
 </html>
